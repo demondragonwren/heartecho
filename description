@@ -1,0 +1,22 @@
+```
+
+Basic Code
+
+0s 	> intro screen
+	| text | "bxymf presents..."
+   	| audio| CUTEDEPRESSED.mp3
+
+6.33s	> menu screen 
+	| text | clickable | "start" 	| (starts game)
+	| text | clickable | "saves" 	| (opens save menu)
+	| text | clickable | "settings" | (opens settings menu)
+	| img  | background| art.jpg
+   	| audio| CUTEDEPRESSED.mp3
+
+Functionality
+	
+	> the audio loops at 22s back to 6.33s
+	> when the start button is clicked
+		- it waits for the song to hit 22s before starting the game
+		- it continues the song into the start of the game.
+
